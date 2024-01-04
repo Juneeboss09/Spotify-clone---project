@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  color: white;
+  background: black;
+  padding: 10px;
+  display: flex;
+}
+
+.right{
+  width:25vw ;
+  
+  border-radius: 7px;
+  
+}
+.upper{
+  background: #121212;
+  border-radius: 7px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column ;
+  height: 20vh;
+  
+  
+}
+.logo > img{
+    
+    height: 30px;
+}
+
+.upper ul li{
+  list-style: none;
+  display: flex;
+  
+  align-items: center;
+  gap: 10px;
+}
+.upper ul li > img{
+ height: 15px;
+ /* width : 80px; */
+}
+ img{
+ filter: invert(1);
+ padding: 5px;
+}
+.home{
+  padding: 5px;
+}
+.lower{
+  background: #121212;
+  margin:  10px 0;
+  border-radius: 7px;
+  /* padding: 20px; */
+  height: 60vh;
+  position: relative;
+  overflow: scroll;
+  
+}
+.library{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  
+  
+}
+.library >img{
+  height: 30px;
+}
+.footer {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    flex-wrap: wrap;
+
+}
+
+.footer a {
+    color: grey;
+}
+.card{
+  background: #252525;
+  
+  margin: 10px;
+  border-radius: 7px;
+  height: 150px;
+  width: 100px;
+  padding: 10px;
+  
+}
+.cover{
+  height: 80px;
+  width: 80px;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3A8ao0bx1yFfPKXHnNE69siAlML3rU1PNd2hsvtPXdT7qUo9PqglJICg&s=10");
+  background-size: cover;
+  background-position:  bottom;
+  border-radius:7px ;
+  margin: auto;
+  
+}
+.cardCont{
+  display: flex;
+ flex-wrap: wrap;
+ margin: 20px;
+}
+.crname{
+  text-align: center;
+  padding:10px;
+}
+.left{
+  max-height: 80vh;
+  position: relative;
+}
+.left > h2{
+ margin: 20px;
+}
+
+.song ul {
+  
+  width: 80%;
+  margin: auto;
+}
+.song ul li{
+  list-style: none;
+  border:1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  padding:10px ;
+  margin: 10px;
+}
+.playbar{
+  background:rgb(62,62,62) ;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width:100% ;
+  border-radius: 3px ;
+  margin:0 40px;
+  padding: 20px;
+  
+}
