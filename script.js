@@ -2,7 +2,7 @@ let currentSong = new Audio();
 
 
 async function getSongs() {
-  let api = await fetch("http://localhost:8158/song.html");
+  let api = await fetch("https://htmlpreview.github.io/?https://github.com/Juneeboss09/Spotify-clone---project/blob/main/song.html");
   let response = await api.text();
   let div = document.createElement("div");
   div.innerHTML = response;
